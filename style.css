@@ -1,0 +1,172 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a{
+  color: black;
+  padding: 0px 7px;
+}
+
+p{
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 30px;
+  margin-top: 15px
+}
+
+header{
+  border-bottom: 1px solid gray;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 35px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  top: 0px;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo span{
+  color: MediumAquamarine;
+  padding: 0px 10px;
+  text-transform: uppercase;
+}
+
+.logo{
+  display: inline-flex;
+  align-items: center;
+  flex-grow: 2;
+}
+
+header nav{
+  padding-right: 70px;
+}
+
+.content{
+  width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 110px;
+}
+
+.column{
+  border: 1px dotted red;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+}
+
+.column.large{
+  width: 630px;
+}
+
+.column.medium{
+  width: 300px;
+}
+.column.small{
+  width: 240px;
+  text-align: center;
+}
+
+.story{
+  display: flex;
+  justify-content: space-between;
+}
+
+.story2, .story1{
+  flex-grow: 1;
+}
+
+.story1{
+  margin-right: 25px;
+}
+
+.image-content{
+  width: 100%;
+  height: 300px;
+  color: white;
+  font-size: 47px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.mainstory .image-content{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+}
+
+.story1 .image-content{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+}
+
+.story2 .image-content{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+}
+
+.story3 .image-content{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
+
+.story h2{
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.mainstory span{
+  padding: 0px 20px;
+}
+
+.story .image-content span{
+  padding: 0px 20px;
+  font-size: 35px;
+}
+
+.lists{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.lists span{
+  padding: 15px;
+  border-bottom: 1px solid gray;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  text-align: left;
+}
+
+footer .small{
+  font-size: 12px;
+}
+
+footer{
+  height: 250px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .logoline{
+  display: inline-flex;
+}
+
+.logoline .logo span{
+  color: white;
+}
